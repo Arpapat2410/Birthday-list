@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Lora:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F28AB2;
+    color: aliceblue;
+    margin-top: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+  }
+
+  .person img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: var(--light-shadow);
+  }
+
+  .img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: var(--light-shadow);
+  }
+
